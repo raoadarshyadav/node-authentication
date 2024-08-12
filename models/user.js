@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-
+//check if user exist
 const userSchema = new mongoose.Schema(
   {
     name: {
